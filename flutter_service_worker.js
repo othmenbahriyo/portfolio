@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "2151cbd176b1b94e390071543827739d",
+  "assets/AssetManifest.json": "3fffe2bb00f885dad8a3445a6548a9db",
 "assets/assets/04_D%25C3%25A9veloppement.pdf": "33aae6d0e1135e207364759cf729585d",
 "assets/assets/1.png": "78d49bb1d6ba051d64f67c019f97786a",
 "assets/assets/184680341_109519147971708_4908594272173886587_n.jpg": "23452a762836dcc3a337469957c216fc",
@@ -25,6 +25,8 @@ const RESOURCES = {
 "assets/assets/apps/lab-logistic/2.png": "e3ab9f162b87547ca23346d374e429fb",
 "assets/assets/apps/labcrm/1.png": "8407286af181c17924504daf201a94ac",
 "assets/assets/apps/labcrm/2.png": "9bb0e396e85a7a8690599fa7a2824ead",
+"assets/assets/apps/post/1.png": "0a8eb1d89f86e2a4c19a28bb5e929a56",
+"assets/assets/apps/post/2.png": "188084222d4612d331045e588bba0c1a",
 "assets/assets/apps/proResto/3.jpg": "98fba813bdca86c00aa96c5ccf6644f6",
 "assets/assets/apps/zetaGym/1.png": "34c5a9c1fa004ff0cd4265c4fba35e47",
 "assets/assets/apps/zetaGym/2.png": "a349279ad0959d40e52d196fe75c443f",
@@ -78,6 +80,7 @@ const RESOURCES = {
 "assets/assets/othb.png": "3543fbcf6efeb7e6b0f24f3d13620842",
 "assets/assets/othwiths.png": "de1a22391e4e13c75319947a4ab398b9",
 "assets/assets/php.png": "95ff3068316abd1bf21611a462a4a0c4",
+"assets/assets/post.png": "aea7ce87ce53017297ca34ab69955e04",
 "assets/assets/procaisse-logo.png": "c8d3ac07e17892de53fbea2e76fbe742",
 "assets/assets/procaissemobility.jpg": "b3eb4e1f84aecc3b208dcef7dfaa1225",
 "assets/assets/projects/android.png": "765adf924dae4d5e67bfb640bcd05c48",
@@ -159,9 +162,9 @@ const RESOURCES = {
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/Icon-192.png": "7508ab915d3bfc418e50e2c1c53456d2",
 "icons/Icon-512.png": "7508ab915d3bfc418e50e2c1c53456d2",
-"index.html": "8fd65d32b727b18140bdb258ac779261",
-"/": "8fd65d32b727b18140bdb258ac779261",
-"main.dart.js": "cd049441f650891075c53483546a6200",
+"index.html": "ab4129f68a6073afbc117ab73c4b1bbf",
+"/": "ab4129f68a6073afbc117ab73c4b1bbf",
+"main.dart.js": "9961fcc8bd097dcb0352d213f32c6dd3",
 "manifest.json": "49784c7ae91d2aad3874685b094eef3c",
 "version.json": "a29e8b22a08aa0274b027931eec216c4"
 };
