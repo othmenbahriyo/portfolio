@@ -71410,9 +71410,9 @@ if(a===0)s=0
 else if(a===1)s=q.c.E(t.w).f.a.b*1.05
 else if(a===2)s=q.c.E(t.w).f.a.b*1.98
 else if(a===3)s=q.c.E(t.w).f.a.b*2.67
-else if(a===4)s=q.c.E(t.w).f.a.b*3.65
-else if(a===5)s=q.c.E(t.w).f.a.b*4.3
-else if(a===6)s=q.c.E(t.w).f.a.b*5.4
+else if(a===4)s=q.c.E(t.w).f.a.b*3.6
+else if(a===5)s=q.c.E(t.w).f.a.b*4.2
+else if(a===6)s=q.c.E(t.w).f.a.b*5.1
 else{s=t.w
 r=q.c
 s=a===7?r.E(s).f.a.b*6:r.E(s).f.a.b*5.7}p.h1(s,B.dl,A.ak(0,0,1))},
@@ -71526,14 +71526,15 @@ A.zB.prototype={
 a7(){var s=t.kK
 return new A.QT(A.a([new A.iA(),new A.iA(),new A.iA(),new A.iA(),new A.iA(),new A.iA(),new A.iA(),new A.iA()],t.V3),A.a([new A.iM(0,new A.cZ("a",s)),new A.iM(1,new A.cZ("b",s)),new A.iM(2,new A.cZ("c",s)),new A.iM(3,new A.cZ("d",s)),new A.iM(4,new A.cZ("e",s)),new A.iM(5,new A.cZ("f",s)),new A.iM(6,new A.cZ("g",s)),new A.iM(7,new A.cZ("g",s))],t.t),B.n)}}
 A.QT.prototype={
-D(a,b){var s,r,q,p=null,o=t.w,n=b.E(o).f
-o=b.E(o).f.a.a*0.02
-n=n.a.b*0.01
-s=A.ak(0,2000,0)
-s=A.nr(0.4,!0,A.ak(0,500,0),B.ay,s,!0,!0,500,0,p,!1,B.a6,0.5)
-r=this.e
-q=A.af(r).i("ap<1,dN*>")
-return A.G(p,A.bm(A.a([new A.fg("\n Portefeuille",p),new A.j4("Voici quelques exemples de mes pr\xe9c\xe9dents travaux :)\n\n",p),A.ah(A.aos(A.ao(new A.ap(r,new A.aeO(),q),!0,q.i("bd.E")),s),600,p)],t.t),B.t,B.ah,B.q),B.f,p,p,p,p,p,p,new A.a7(o,n,o,n),p,p,p)}}
+D(a,b){var s,r,q,p,o,n=null,m=t.w,l=b.E(m).f.a.b
+m=b.E(m).f.a.a*0.02
+s=l*0.01
+r=l*0.7
+q=A.ak(0,2000,0)
+q=A.nr(0.4,!0,A.ak(0,500,0),B.ay,q,!0,!0,r,0,n,!1,B.a6,0.5)
+p=this.e
+o=A.af(p).i("ap<1,dN*>")
+return A.G(n,A.bm(A.a([new A.fg("\n Portefeuille",n),new A.j4("Voici quelques exemples de mes pr\xe9c\xe9dents travaux :)\n\n",n),A.ah(A.aos(A.ao(new A.ap(p,new A.aeO(),o),!0,o.i("bd.E")),q),r,n)],t.t),B.t,B.ah,B.q),B.f,n,n,n,n,n,n,new A.a7(m,s,m,s),n,n,n)}}
 A.aeO.prototype={
 $1(a){return new A.dN(new A.aeN(a),null)},
 $S:446}
