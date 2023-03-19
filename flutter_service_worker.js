@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "28ef7785f29321b4e19b436dad0b4238",
+  "assets/AssetManifest.json": "3fffe2bb00f885dad8a3445a6548a9db",
 "assets/assets/04_D%25C3%25A9veloppement.pdf": "33aae6d0e1135e207364759cf729585d",
 "assets/assets/1.png": "78d49bb1d6ba051d64f67c019f97786a",
 "assets/assets/184680341_109519147971708_4908594272173886587_n.jpg": "23452a762836dcc3a337469957c216fc",
@@ -11,6 +11,7 @@ const RESOURCES = {
 "assets/assets/297690326_452469776750004_1858389735320000936_n.jpg": "a652daaf5b2e810928e9398993f4c17d",
 "assets/assets/3.jpg": "3ae75162a466ece1e67d06e2322adbe8",
 "assets/assets/aaa.jpeg": "1de68326d0bedb1f682d8ec66fefa747",
+"assets/assets/aandi.png": "1eb98910e156d08e8c1175940236ccb1",
 "assets/assets/aero.png": "b6803293145e4fc1f69f7abf5f425aa5",
 "assets/assets/andi.jpg": "950342b18317a245fb564343b499c590",
 "assets/assets/andi.png": "ff4dd7a55adb88dcf1b06833bbedf2f3",
@@ -24,6 +25,8 @@ const RESOURCES = {
 "assets/assets/apps/lab-logistic/2.png": "e3ab9f162b87547ca23346d374e429fb",
 "assets/assets/apps/labcrm/1.png": "8407286af181c17924504daf201a94ac",
 "assets/assets/apps/labcrm/2.png": "9bb0e396e85a7a8690599fa7a2824ead",
+"assets/assets/apps/post/1.png": "0a8eb1d89f86e2a4c19a28bb5e929a56",
+"assets/assets/apps/post/2.png": "188084222d4612d331045e588bba0c1a",
 "assets/assets/apps/proResto/3.jpg": "98fba813bdca86c00aa96c5ccf6644f6",
 "assets/assets/apps/zetaGym/1.png": "34c5a9c1fa004ff0cd4265c4fba35e47",
 "assets/assets/apps/zetaGym/2.png": "a349279ad0959d40e52d196fe75c443f",
@@ -40,6 +43,7 @@ const RESOURCES = {
 "assets/assets/close.png": "e134976a56de4e03f07886ec57b02f05",
 "assets/assets/cui.png": "b5608c4d79345ca955f990a24a454554",
 "assets/assets/dart.png": "a675cb93b75d5f1656c920dceecdcb38",
+"assets/assets/dream.png": "039571b5da761e1a501b9a2052577512",
 "assets/assets/dsc.png": "bd954ceeeb42b91899ebe1c3b0d79850",
 "assets/assets/enetcom.png": "00a9e61c1ca18ab51b53e0acb857be9b",
 "assets/assets/ex.jpg": "138c194e5e37a25c50cd83538504b561",
@@ -50,16 +54,20 @@ const RESOURCES = {
 "assets/assets/fonts/agustina.otf": "7b9833076716a8d14eec0cf885a3153c",
 "assets/assets/fonts/montserrat.ttf": "ee6539921d713482b8ccd4d0d23961bb",
 "assets/assets/getx.png": "05026c983e40b6155e87a931858e6d5c",
+"assets/assets/gym.png": "b48adbf537c1c1f99a82d1e5c66c5c7d",
 "assets/assets/hi.gif": "cad5918d86b6a7e83f1fb4acead70e4c",
 "assets/assets/int.png": "70a810f2e4134db22d4da1dcc9912313",
 "assets/assets/java.png": "74e943d82452f81f6a0bb0b51ac6785d",
 "assets/assets/js.png": "1296a866e32efdce72f186a914eaa80a",
+"assets/assets/labcrm.png": "8cb74fb880c057ef255fff8f38a2d000",
+"assets/assets/logistic.png": "a952145219f281a7b49cca98eca652c3",
 "assets/assets/logistique.png": "315cf1f1c59a5a0e7e16a03c1c890156",
 "assets/assets/logo-3andi.png": "83321c2157d3e0c53ed3345aaf884fcc",
 "assets/assets/mhms-logo.png": "342aca5f0536d5e220a29e12cafa1126",
 "assets/assets/mob.jpg": "e9fa953241bed1746c0a4e3732636e45",
 "assets/assets/mob.png": "396d7583e769f42caf8642ba0f67739d",
 "assets/assets/mongo.png": "93901fd22c1fe99c18dfbad6b6f21a1e",
+"assets/assets/mourafik.png": "45a79e011a308a97e2050844d2d431bb",
 "assets/assets/music.png": "ed6f559f21a586a13380f1e31a144e00",
 "assets/assets/my.jpg": "e5e1777bb62b8b9e71113c78a9d8be7f",
 "assets/assets/my.png": "f62c7028a0f761845769e27ff426fb13",
@@ -72,6 +80,7 @@ const RESOURCES = {
 "assets/assets/othb.png": "3543fbcf6efeb7e6b0f24f3d13620842",
 "assets/assets/othwiths.png": "de1a22391e4e13c75319947a4ab398b9",
 "assets/assets/php.png": "95ff3068316abd1bf21611a462a4a0c4",
+"assets/assets/post.png": "aea7ce87ce53017297ca34ab69955e04",
 "assets/assets/procaisse-logo.png": "c8d3ac07e17892de53fbea2e76fbe742",
 "assets/assets/procaissemobility.jpg": "b3eb4e1f84aecc3b208dcef7dfaa1225",
 "assets/assets/projects/android.png": "765adf924dae4d5e67bfb640bcd05c48",
@@ -88,7 +97,7 @@ const RESOURCES = {
 "assets/assets/projects/quran.png": "55e8a0c928bc192f682ca0e61cb61ce3",
 "assets/assets/projects/quranB.png": "3cf070457b64cf93d11ad2073bff88e2",
 "assets/assets/proresto-logo.png": "532f73fee6a4cc69f0398b4f2cb1df47",
-"assets/assets/proresto.png": "3dbba169d7e4c1c108cad8872aa93320",
+"assets/assets/proresto.png": "7fb58314c2ea4ed204b6745bb626eb94",
 "assets/assets/prors.png": "989f649e329eb07513e82a6e7a2bb57f",
 "assets/assets/Protech.png": "3ef03e18ea085f5f428f24f473f72e36",
 "assets/assets/python.png": "d935495ed56b1d60cadc1cb9a3ea6e70",
@@ -118,8 +127,8 @@ const RESOURCES = {
 "assets/assets/wided.jpg": "c46f67aa4b791cf6cba5764bc2fea25a",
 "assets/assets/zeta.png": "5066a9054703cddbcfd553c542692f5f",
 "assets/FontManifest.json": "9bdb557c6b2f6cedd7a1dc0d926f5bd0",
-"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
-"assets/NOTICES": "465212ba469683f66effc96e2accc721",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/NOTICES": "9fcd729c8797d25c9f5d7b6b9fc87419",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_AMS-Regular.ttf": "657a5353a553777e270827bd1630e467",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Caligraphic-Bold.ttf": "a9c8e437146ef63fcd6fae7cf65ca859",
@@ -145,27 +154,27 @@ const RESOURCES = {
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "eaed33dc9678381a55cb5c13edaf241d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "ffed6899ceb84c60a1efa51c809a57e4",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"assets/shaders/ink_sparkle.frag": "1b75bb553299d2c74125e4d076fa550a",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "favicon.png": "7508ab915d3bfc418e50e2c1c53456d2",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "7508ab915d3bfc418e50e2c1c53456d2",
 "icons/Icon-512.png": "7508ab915d3bfc418e50e2c1c53456d2",
-"index.html": "b4d3a1ad0ceeffee6336c17b1cd008e9",
-"/": "b4d3a1ad0ceeffee6336c17b1cd008e9",
-"main.dart.js": "59570d7280626ba631ab9259bc31f670",
-"manifest.json": "49784c7ae91d2aad3874685b094eef3c",
+"index.html": "25c9f59d05993f965b061ee7ce85873c",
+"/": "25c9f59d05993f965b061ee7ce85873c",
+"main.dart.js": "3d9a6168b5ff251a8c758f314e21c532",
+"manifest.json": "7d29319d6812573732f2a4b717eeb35c",
 "version.json": "a29e8b22a08aa0274b027931eec216c4"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -264,9 +273,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
