@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "37bb0511c04200a1ade408451a7b123d",
+  "assets/AssetManifest.json": "477f1e55c98917d41244280a8240f17b",
 "assets/assets/1.png": "78d49bb1d6ba051d64f67c019f97786a",
 "assets/assets/2.png": "2fd26f6122147bcedb625229174656b1",
 "assets/assets/3.jpg": "3ae75162a466ece1e67d06e2322adbe8",
@@ -33,6 +33,7 @@ const RESOURCES = {
 "assets/assets/az1.png": "bc5614b2527fb49e47ee5e4f40cc7263",
 "assets/assets/az3.png": "52a4841574d3e602dbd4d127ce2ae806",
 "assets/assets/banner.jpg": "24afd59f078d93450789e686d08fb08b",
+"assets/assets/bird.gif": "fe2eef2169dd20f806bf59c32bc4131a",
 "assets/assets/block.png": "2a2e650258c6be349b9c116a9d4aa24e",
 "assets/assets/book.png": "781de9cc825c1ec6934a4e8874d514a6",
 "assets/assets/camp.png": "264e8120c7e93f3bf9e27feef91d6d9f",
@@ -159,9 +160,9 @@ const RESOURCES = {
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "7508ab915d3bfc418e50e2c1c53456d2",
 "icons/Icon-512.png": "7508ab915d3bfc418e50e2c1c53456d2",
-"index.html": "b4c2759ac06238ab62c8352e34cd7aa7",
-"/": "b4c2759ac06238ab62c8352e34cd7aa7",
-"main.dart.js": "6529b1fd80cdfacc8cfafedda467ccc0",
+"index.html": "91122efa153f40fa18b25852c4813577",
+"/": "91122efa153f40fa18b25852c4813577",
+"main.dart.js": "2353ec605934dbcaefcf2de261145424",
 "manifest.json": "7d29319d6812573732f2a4b717eeb35c",
 "version.json": "a29e8b22a08aa0274b027931eec216c4"
 };
